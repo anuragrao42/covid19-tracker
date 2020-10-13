@@ -1,0 +1,31 @@
+.infobox {
+  flex: 1;
+}
+.infobox:not(:last-child) {
+  margin-right: 15px;
+}
+.infobox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infobox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+  margin-top: 15px !important;
+}
+.infobox:hover {
+  cursor: pointer;
+}
+.activeBox {
+  border-top: solid 5px #1eff69;
+}
+.activeBox--red {
+  border-top: solid 5px red;
+}
+.activeBox--text--green {
+  color: green !important ;
+}

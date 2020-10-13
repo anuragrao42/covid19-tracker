@@ -1,0 +1,18 @@
+.app__table {
+  margin: 10px 0 5px 0;
+  overflow: scroll;
+  height: 410px;
+}
+
+.app__table tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.app__table table {
+  width: 100%;
+}
+
+.app__table tr:nth-of-type(odd) {
+  background-color: #d1c3c3;
+}
